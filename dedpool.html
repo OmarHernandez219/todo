@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<link href="https://fonts.cdnfonts.com/css/la-unica" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/thumbs-down" rel="stylesheet">
+    <title>deadpool de miguel</title>
+</head>
+<body>
+        <div style="margin: 24px">
+            <nav class="navbar navbar-light"
+            style="background-color:rgb(158, 213, 255);" >
+                <div class="container">
+                    <a class="navbar-brand" href="index.html" style="color:rgb(0, 0, 0); ">Inicio</a>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-espanded="false">Unidad 1</a>
+                                <div class="dropdown-menu"
+                                aria-labelledby="navbarDripdownMenuLink">
+                                <a class="dropdown-item"
+                                href="perfil.html">Perfil</a><br>
+                                <a class="dropdown-item"
+                                href="calculadora.html">Calculadora</a><br>
+                                <a class="dropdown-item"
+                                href="tienda.html">Tienda parte 1</a><br>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-espanded="false">Unidad 2</a>
+                                <div class="dropdown-menu"
+                                aria-labelledby="navbarDripdownMenuLink">
+                                <a class="dropdown-item"
+                                href="tiendapedido.html">Tienda Pedido</a><br>
+                                <a class="dropdown-item"
+                                href="jason.html">JSON</a><br>
+                                <a class="dropdown-item"
+                                href="tiendapedido2.html">Tienda Pedido 2</a><br>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-espanded="false">Unidad 3</a>
+                                <div class="dropdown-menu"
+                                aria-labelledby="navbarDripdownMenuLink">
+                                <a class="dropdown-item"
+                                href="basededatos.html">Base de datos</a><br>
+                                <a class="dropdown-item"
+                                href="peliculas.html">Peliculas</a><br>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+               </div>
+            </nav>
+        </div>
+    <style>
+
+        body,html{
+
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+
+
+        }
+
+
+        .dedpool {
+            position: relative;
+            width: 100%;
+            height: 40%;
+            background: url(img/imagen.jpg) no-repeat center center/cover;
+            opacity: 80%;
+            left: 5px;
+            top: 20px;
+        }
+
+        .dedpool2{
+
+            position: relative;
+            width: 500px;
+            height: 500px;
+
+        }
+
+        .texto-presentacion{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: rgb(14, 13, 13);
+            text-align: center;
+            text-shadow: 1px 1px 2px black;
+        }
+        .circulo{
+
+
+
+        }
+
+        .cuadrado{
+
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            position: absolute;
+
+        }
+
+        .ojos{ 
+
+            display: block;
+            width: 60px;
+            height: 110px;
+            background-color: black;
+            border-radius: 50% 50% 50% 50% / 60% 60% 60% 60%;
+            position: relative;
+        }
+
+        .triangulo-normal {
+
+            width: 0;
+            height: 0;
+            border-top: 40px solid transparent;
+            border-right: 40px solid transparent;
+            border-bottom: 40px solid black;
+
+        }
+
+        .trianguloizquierdo {
+
+            width: 0;
+            height: 0;
+            border-top: 40px solid transparent;
+            border-right: 40px solid black;
+            border-bottom: 40px solid transparent;
+
+
+
+        }
+
+        .eclipse{ 
+
+            width: 150px;
+            height: 150px;
+            background-color: black;
+            border: 2px solid white;
+            -moz-border-radius: 0 100px 100px 0;
+            -webkit-border-radius:0 100px 100px 0 ;
+            border-radius: 0 100px 100px 0;
+
+        }
+    </style>
+
+    <div class="dedpool">
+        <div class="texto-presentacion">
+            <h1>Mi primer dibujo en CCS</h1>
+            <h2>Diseño por: Miguel Cruz</h2>
+            <p>De la especialidad de programacion de 4 semestre de la escuela Cetis 131</p>
+        </div>
+    </div>
+    <style>
+
+        .cuadrados{
+
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            border-radius: 10%;
+            border-style: ridge ;
+            left: 100px;
+        }
+
+        .imagepaginas {
+
+
+            width: 150px;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 20%;
+        }
+
+        .parrafo{
+
+            font-size: 13px;
+            text-align: center;
+
+        }
+
+    </style>
+
+
+    <br><div class="cuadrados">
+        <br><img src="img/comida5.jpg" class="imagepaginas">
+        <a href="menu.html" style="text-align: center; display: block;"> Tienda 1</a>
+        <p class="parrafo">Aqui va la primera parte de la pagina del restaurant en la que solo muestra el menu sin nada mas
+        </p>
+        </div><br>
+    
+    <div class="cuadrados">
+        <img src="img/desayuno4.jpg" class="imagepaginas">
+         <a href="menu2.html" style="text-align: center; display: block;"> Tienda 2</a>
+         <p class="parrafo">Aqui va la segunda parte de la pagina del restaurant en la que solo muestra el menu sin nada mas
+         </p>
+     </div><br>
+
+     
+    <div class="cuadrados">
+         <img src="img/postre3.jpg" class="imagepaginas">
+         <a href="menu.html" style="text-align: center; display: block;"> Tienda 3</a>
+         <p class="parrafo">Aqui va la tercera parte de la pagina del restaurant en la que solo muestra el menu sin nada mas
+         </p>
+     </div><br>
+
+    <div class="dedpool2 "></div>
+    <div class="cuadrado" style="left: 140px; top: 70px; border-radius: 50%;"></div>
+    <div class="cuadrado" style="width: 150px;height: 150px;left: 166px; top: 240px; border-radius: 45%;"></div>
+    <div class="ojos" style="top: 1000px; left: 250px;"></div>
+    <div class="ojos" style="top: 350px; left: 170px;"></div>
+    <div class="cuadrado" style="height: 20px; width: 20px; left: 190px; top: 170px; border-radius: 50%; background-color: rgb(250, 248, 248); "></div>
+    <div class="cuadrado" style="height:  20px; width: 20px; left: 260px; top: 170px; border-radius: 50%; background-color: rgb(255, 255, 255);"></div>
+    <div class="eclipse" style=""></div>
+
+
+
+</body>
+</html>
